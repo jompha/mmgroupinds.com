@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mmgroupinds.com/sitemap.xml
