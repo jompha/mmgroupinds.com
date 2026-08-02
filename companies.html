@@ -3,37 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Our Companies | M.M. Knitwear & Mamun Knitwear | M.M. Group</title>
+<title>Our Companies | M.M. Knitwear &amp; Mamun Knitwear | M.M. Group</title>
 <meta name="description" content="M.M. Group encompasses M.M. Knitwear Ltd. (est. 2001) and Mamun Knitwear Ltd. (est. 2014) - Bangladesh's premier knitwear manufacturing companies.">
 <link rel="canonical" href="https://mmgroupinds.com/companies.html">
-<link rel="icon" type="image/png" href="images/logo.png">
+<meta name="theme-color" content="#245CA0">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header class="header" id="header">
   <div class="container">
-    <a href="index.html" class="logo">
-      <img src="images/logo.png" alt="M.M. Group Logo" width="50" height="50">
-      <span class="logo-text">M.M. <span class="logo-highlight">Group</span></span>
+    <a href="index.html" class="logo" aria-label="M.M. Group — Home">
+      <img src="images/logo.webp" alt="M.M. Group Logo" width="1168" height="323">
     </a>
-    <nav class="nav" id="nav">
+    <nav class="nav" id="nav" aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="companies.html" class="active">Companies</a></li>
+        <li><a href="companies.html" class="active" aria-current="page">Companies</a></li>
         <li><a href="capabilities.html">Capabilities</a></li>
         <li><a href="compliance.html">Compliance</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
       </ul>
     </nav>
-    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
 
-<section class="page-hero">
+<main id="main"><section class="page-hero">
   <div class="container">
     <p class="breadcrumb"><a href="index.html">Home</a> / Our Companies</p>
     <h1>Our Companies</h1>
@@ -45,11 +49,12 @@
   <div class="container">
     <div class="content-grid reveal">
       <div class="content-image">
-        <img src="images/premises/mm-factory.jpg" alt="M.M. Knitwear Ltd. Factory" loading="lazy" onerror="this.src='images/knitting/DSC_0276.jpg'">
+        <img src="images/premises/mm-factory.webp" alt="M.M. Knitwear Ltd. factory" loading="lazy" width="1400" height="1400">
       </div>
       <div class="content-text">
-        <h3>M.M. Knitwear Ltd.</h3>
-        <p style="color:var(--primary);font-weight:600;">Est. 2001 | Flagship Company</p>
+        <span class="section-tag">Flagship Company</span>
+        <h2>M.M. Knitwear Ltd.</h2>
+        <p style="color:var(--accent);font-weight:600;">Est. 2001</p>
         <p>M.M. Knitwear Ltd. is the flagship company of M.M. Group, established on 1st September 2001. It is a 100% export-oriented, vertically integrated knit composite factory with end-to-end manufacturing capabilities.</p>
         <p>With 116 production lines, 3,850 sewing machines, and a workforce of thousands, we produce 200,000 pieces of garments daily. Our in-house facilities include knitting (45 tons/day), dyeing (45 tons/day), placement printing, all-over printing, embroidery, washing, cutting, and sampling.</p>
         <div class="stats-row">
@@ -66,15 +71,16 @@
 
 <section class="page-section">
   <div class="container">
-    <div class="content-grid reverse reveal">
+    <div class="content-grid reveal reverse">
       <div class="content-image">
-        <img src="images/premises/mamun-factory.jpg" alt="Mamun Knitwear Ltd." loading="lazy" onerror="this.src='images/garments/DSC_0059.jpg'">
+        <img src="images/premises/mamun-factory.webp" alt="Mamun Knitwear Ltd. facility" loading="lazy" width="1400" height="1064">
       </div>
       <div class="content-text">
-        <h3>Mamun Knitwear Ltd.</h3>
-        <p style="color:var(--primary);font-weight:600;">Est. 2014 | Sister Concern</p>
+        <span class="section-tag">Sister Concern</span>
+        <h2>Mamun Knitwear Ltd.</h2>
+        <p style="color:var(--accent);font-weight:600;">Est. 2014</p>
         <p>Mamun Knitwear Ltd. was established on 5th July 2014 as a sister concern of M.M. Group. Located strategically near Hazrat Shahjalal International Airport, this facility specializes in knitting, cutting, and garment manufacturing.</p>
-        <p>The facility operates from a dedicated 7-story building with modern machinery, contributing to the group's overall capacity and maintaining the same high standards of quality and compliance.</p>
+        <p>The facility operates from a dedicated 7-story building with modern machinery, contributing to the group&rsquo;s overall capacity and maintaining the same high standards of quality and compliance.</p>
         <div class="stats-row">
           <div class="stat-box"><strong>7</strong><span>Story Building</span></div>
           <div class="stat-box"><strong>Modern</strong><span>Knitting Facility</span></div>
@@ -93,32 +99,32 @@
     </div>
     <div class="caps-grid reveal">
       <div class="cap-card">
-        <div class="cap-icon" style="background:#e0f2e0;color:#2d7d2d;">MK</div>
+        <div class="cap-icon" style="background:var(--primary-light);color:var(--blue);font-weight:700;">MM</div>
         <h3>M.M. Knitwear Ltd.</h3>
-        <p>Knitting, dyeing, garments, printing, embroidery, washing — full vertical integration.</p>
+        <p>Knitting, dyeing, garments, printing, embroidery, washing &mdash; full vertical integration.</p>
       </div>
       <div class="cap-card">
-        <div class="cap-icon" style="background:#e0e8f2;color:#2d4d7d;">MK</div>
+        <div class="cap-icon" style="background:var(--accent-light);color:var(--blue);font-weight:700;">MK</div>
         <h3>Mamun Knitwear Ltd.</h3>
         <p>Knitting, cutting, and garment manufacturing with modern facilities.</p>
       </div>
       <div class="cap-card">
-        <div class="cap-icon" style="background:#f2e8e0;color:#7d5d2d;">LA</div>
-        <h3>M.M. Label & Accessories</h3>
+        <div class="cap-icon" style="background:var(--primary-light);color:var(--blue);font-weight:700;">LA</div>
+        <h3>M.M. Label &amp; Accessories</h3>
         <p>All kinds of labels, paper items, poly bags, and carton manufacturing.</p>
       </div>
       <div class="cap-card">
-        <div class="cap-icon" style="background:#e8f0e0;color:#4d7d2d;">AOP</div>
-        <h3>M.M. Printing & AOP</h3>
+        <div class="cap-icon" style="background:var(--accent-light);color:var(--blue);font-weight:700;">AOP</div>
+        <h3>M.M. Printing &amp; AOP</h3>
         <p>State-of-the-art all-over printing facility with 15 machines.</p>
       </div>
       <div class="cap-card">
-        <div class="cap-icon" style="background:#f0e8e0;color:#7d4d2d;">EM</div>
+        <div class="cap-icon" style="background:var(--primary-light);color:var(--blue);font-weight:700;">EM</div>
         <h3>M.M. Embroidery</h3>
         <p>In-house embroidery with 20-head machines handling diverse techniques.</p>
       </div>
       <div class="cap-card">
-        <div class="cap-icon" style="background:#e0edf2;color:#2d5d7d;">DY</div>
+        <div class="cap-icon" style="background:var(--accent-light);color:var(--blue);font-weight:700;">DY</div>
         <h3>M.M. Dyeing Unit 2</h3>
         <p>Second dyeing unit (est. 2018) for expanded in-house dyeing capacity.</p>
       </div>
@@ -126,11 +132,12 @@
   </div>
 </section>
 
+</main>
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="images/logo.png" alt="M.M. Group" width="60" height="60">
+        <div class="footer-logo-box"><img src="images/logo.webp" alt="M.M. Group" width="1168" height="323"></div>
         <h3>M.M. Group</h3>
         <p>Vertically Integrated Knitwear Manufacturing Excellence Since 2001.</p>
       </div>
@@ -150,16 +157,16 @@
         <ul>
           <li><a href="companies.html">M.M. Knitwear Ltd.</a></li>
           <li><a href="companies.html">Mamun Knitwear Ltd.</a></li>
-          <li><a href="companies.html">M.M. Label & Accessories</a></li>
-          <li><a href="companies.html">M.M. Printing & AOP</a></li>
+          <li><a href="companies.html">M.M. Label &amp; Accessories</a></li>
+          <li><a href="companies.html">M.M. Printing &amp; AOP</a></li>
         </ul>
       </div>
       <div class="footer-contact">
         <h4>Contact</h4>
-        <p>Head Office: House-16, Road-10, Sector-01, Uttara Model Town, Dhaka</p>
-        <p>Factory: Ambagh Road, Nilnagar, Konabari, Gazipur</p>
-        <p>Phone: +88-09666-768768</p>
-        <p>Email: info@mmgroupinds.com</p>
+        <p><strong>Head Office:</strong> House-16, Road-10, Sector-01, Uttara Model Town, Dhaka</p>
+        <p><strong>Factory:</strong> Ambagh Road, Nilnagar, Konabari, Gazipur</p>
+        <p><strong>Phone:</strong> +88-09666-768768</p>
+        <p><strong>Email:</strong> info@mmgroupinds.com</p>
       </div>
     </div>
     <div class="footer-bottom">
