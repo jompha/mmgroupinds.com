@@ -688,6 +688,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   .timeline-dot { left: 5px; }
   .cta-box { padding: 48px 32px; }
   .hero { min-height: 560px; }
+  .hero-content { padding-top: 96px; padding-bottom: 90px; }
   .hero-content { text-align: center; margin: 0 auto; }
   .hero-content h1 { text-align: center; }
   .hero-sub, .hero-actions, .hero-scroll { justify-content: center; }
@@ -727,6 +728,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   .footer-grid { grid-template-columns: 1fr; gap: 32px; text-align: center; }
   .footer-brand .footer-logo-box { margin-left: auto; margin-right: auto; }
   .hero h1 { font-size: 2.05rem; }
+  .hero-content { padding-top: 120px; }
   .hero-actions { flex-direction: column; }
   .hero-actions .btn { width: 100%; }
   .section { padding: 72px 0; }
