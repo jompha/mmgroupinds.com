@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
 }
 .logo { display: flex; align-items: center; flex-shrink: 0; }
 .logo img {
-  height: 60px; width: auto;
+  height: 36px; width: auto;
   object-fit: contain;
   transition: var(--transition);
 }
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
 .company-card {
   background: var(--surface); border-radius: var(--radius-lg);
   padding: 40px 38px; box-shadow: var(--shadow-md);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border); text-align: center;
   transition: var(--transition); position: relative; overflow: hidden;
 }
 .company-card::after {
@@ -328,16 +328,16 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   width: 58px; height: 58px;
   background: var(--gradient-brand); color: #fff; border-radius: 16px;
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.15rem; font-weight: 700; margin-bottom: 22px;
+  font-size: 1.15rem; font-weight: 700; margin: 0 auto 22px;
   font-family: var(--font-display); box-shadow: var(--shadow-accent);
 }
 .company-card h3 { font-size: 1.45rem; font-weight: 700; margin-bottom: 6px; }
 .company-sub { color: var(--accent); font-size: 0.86rem; font-weight: 600; margin-bottom: 18px; letter-spacing: 0.3px; text-transform: uppercase; }
 .company-card p { color: var(--text-light); line-height: 1.7; margin-bottom: 22px; }
-.company-stats { border-top: 1px solid var(--border); padding-top: 18px; margin-bottom: 22px; }
+.company-stats { border-top: 1px solid var(--border); padding-top: 18px; margin-bottom: 22px; list-style: none; }
 .company-stats li {
   padding: 7px 0; color: var(--text-light); font-size: 0.95rem;
-  display: flex; align-items: baseline; gap: 10px;
+  display: flex; align-items: baseline; gap: 10px; justify-content: center;
 }
 .company-stats li::before {
   content: ''; width: 7px; height: 7px; border-radius: 50%;
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
 .caps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .cap-card {
   background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius-lg); padding: 34px 28px; text-align: left;
+  border-radius: var(--radius-lg); padding: 34px 28px; text-align: center;
   transition: var(--transition); position: relative; overflow: hidden;
 }
 .cap-card:hover {
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
 }
 .cap-card:hover::before { opacity: 1; }
 .cap-icon {
-  width: 54px; height: 54px; margin-bottom: 20px;
+  width: 54px; height: 54px; margin: 0 auto 20px;
   background: var(--accent-light); border-radius: 15px;
   display: flex; align-items: center; justify-content: center;
   color: var(--blue); transition: var(--transition);
@@ -432,7 +432,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   border-radius: var(--radius); margin-bottom: 20px;
   box-shadow: var(--shadow-md);
 }
-.footer-brand .footer-logo-box img { height: 84px; width: auto; object-fit: contain; }
+.footer-brand .footer-logo-box img { height: 50px; width: auto; object-fit: contain; }
 .footer-brand h3 { color: #fff; font-size: 1.25rem; margin-bottom: 10px; }
 .footer-brand p { font-size: 0.92rem; line-height: 1.7; color: rgba(255, 255, 255, 0.6); }
 .footer-links h4, .footer-contact h4 {
@@ -670,7 +670,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   .nav a { display: block; padding: 13px 16px; font-size: 1.02rem; }
   .nav-cta { margin-left: 0; text-align: center; margin-top: 8px; }
   .menu-toggle { display: flex; }
-  .logo img { height: 48px; }
+  .logo img { height: 29px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .about-preview-grid { grid-template-columns: 1fr; gap: 40px; }
   .companies-grid { grid-template-columns: 1fr; }
@@ -712,7 +712,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
 
 @media (max-width: 576px) {
   .container { padding: 0 18px; }
-  .logo img { height: 44px; }
+  .logo img { height: 26px; }
   .stats-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
   .stat-card { padding: 26px 12px 24px; }
   .stat-number { font-size: 2.1rem; }
