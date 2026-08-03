@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://mmgroupinds.com/sitemap.xml
+Sitemap: https://www.mmgroupinds.com/sitemap.xml
