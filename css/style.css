@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
 }
 .logo { display: flex; align-items: center; flex-shrink: 0; }
 .logo img {
-  height: 52px; width: auto;
+  height: 60px; width: auto;
   object-fit: contain;
   transition: var(--transition);
 }
@@ -428,11 +428,11 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
 }
 .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1.1fr 1.5fr; gap: 44px; margin-bottom: 48px; }
 .footer-brand .footer-logo-box {
-  display: inline-flex; background: #fff; padding: 10px 16px;
+  display: inline-flex; background: #fff; padding: 10px 18px;
   border-radius: var(--radius); margin-bottom: 20px;
   box-shadow: var(--shadow-md);
 }
-.footer-brand .footer-logo-box img { height: 64px; width: auto; object-fit: contain; }
+.footer-brand .footer-logo-box img { height: 84px; width: auto; object-fit: contain; }
 .footer-brand h3 { color: #fff; font-size: 1.25rem; margin-bottom: 10px; }
 .footer-brand p { font-size: 0.92rem; line-height: 1.7; color: rgba(255, 255, 255, 0.6); }
 .footer-links h4, .footer-contact h4 {
@@ -670,6 +670,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   .nav a { display: block; padding: 13px 16px; font-size: 1.02rem; }
   .nav-cta { margin-left: 0; text-align: center; margin-top: 8px; }
   .menu-toggle { display: flex; }
+  .logo img { height: 48px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .about-preview-grid { grid-template-columns: 1fr; gap: 40px; }
   .companies-grid { grid-template-columns: 1fr; }
@@ -700,6 +701,10 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   .about-image { margin: 0 auto; }
   .team-card, .company-card, .cap-card, .stat-box, .contact-info, .form-card { text-align: center; }
   .team-card p { text-align: center; }
+  .company-icon, .cap-icon, .cert-icon, .info-icon { margin-left: auto; margin-right: auto; }
+  .company-stats { text-align: center; }
+  .company-stats li { justify-content: center; }
+  .company-card .btn-link, .content-text .btn-link { display: inline-block; }
   .contact-detail { justify-content: center; flex-direction: column; text-align: center; }
   .check-list { text-align: left; display: inline-block; }
   .contact-info .contact-detail { align-items: center; }
@@ -728,6 +733,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   .cta-box { padding: 40px 24px; }
   .cta-box h2 { font-size: 1.6rem; }
   .stats-row { grid-template-columns: 1fr; }
+  .stats-row .stat-box { margin: 0 auto; max-width: 100%; }
   .hero-scroll { display: none; }
   .content-text .btn { display: block; text-align: center; }
   .check-list { display: block; }
