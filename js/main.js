@@ -110,13 +110,13 @@
   function initMap() {
     var mapEl = document.getElementById('map');
     if (!mapEl || typeof L === 'undefined') return;
-    var lat = 23.9803, lng = 90.4125;
-    var map = L.map('map').setView([lat, lng], 13);
+    var lat = 24.013995, lng = 90.3185405;
+    var map = L.map('map').setView([lat, lng], 15);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
     L.marker([lat, lng]).addTo(map)
-      .bindPopup('M.M. Group<br>Gazipur, Bangladesh')
+      .bindPopup('M.M. Group<br>Konabari, Gazipur, Bangladesh')
       .openPopup();
   }
 
