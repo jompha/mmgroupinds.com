@@ -107,30 +107,6 @@
     }, 5000);
   }
 
-  function initMap() {
-    var mapEl = document.getElementById('map');
-    if (!mapEl || typeof L === 'undefined') return;
-    var lat = 24.013995, lng = 90.3185405;
-    var map = L.map('map').setView([lat, lng], 15);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors'
-    }).addTo(map);
-    L.marker([lat, lng]).addTo(map)
-      .bindPopup('M.M. Group<br>Konabari, Gazipur, Bangladesh')
-      .openPopup();
-  }
-
-  if (document.getElementById('map')) {
-    var script = document.createElement('script');
-    script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-    script.onload = initMap;
-    document.head.appendChild(script);
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
-    document.head.appendChild(link);
-  }
-
   var contactForm = document.getElementById('contactForm');
   if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
